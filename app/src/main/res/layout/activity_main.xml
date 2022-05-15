@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
@@ -10,39 +9,55 @@
 
 
 
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_avatar"
+        android:layout_marginTop="50dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/chusan"
+        />
+
+    <TextView
+        android:id="@+id/tv_full_name"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_dang_xuat"
+        android:fontFamily="@font/avobold"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_margin="5dp"
+        />
 
 
 
+    <TextView
+        android:id="@+id/tv_email"
 
-    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_dang_xuat"
+        android:fontFamily="@font/avoitalic"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_sign_out"
+
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:text="@string/str_dang_xuat"
+        android:backgroundTint="@color/btn_orther"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:fontFamily="@font/avo"
         android:layout_gravity="center"
-        android:background="@drawable/border_color_textbox"
-        android:layout_margin="20dp">
+        android:layout_marginTop="80dp"
 
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="Hello World"-->
-<!--            android:id="@+id/tv_user_infor"-->
-<!--            android:layout_gravity="center"-->
-<!--            />-->
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/btn_sign_out"
-            android:text="Sign Out"
-            android:backgroundTint="@color/main_green"
-            android:textAllCaps="false"
-            android:layout_gravity="center"
-
-            />
-
-
-
-
-    </ScrollView>
+        />
 
 </LinearLayout>
