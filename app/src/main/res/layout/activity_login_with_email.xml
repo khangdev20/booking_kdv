@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".LoginWithEmail">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_dang_nhap"
+        android:textSize="40sp"
+        android:fontFamily="@font/avo"
+        android:textColor="@color/main_green"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:hint="@string/str_email"
+        android:background="@drawable/border_color_textbox"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_color_textbox"
+        android:id="@+id/edt_password"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:hint="@string/str_Password"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btn_login_with_email"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/str_sign_in"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:backgroundTint="@color/main_green"
+
+        />
+
+
+
+        <LinearLayout
+            android:id="@+id/layout_signUP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                android:text="@string/str_chua_co_tai_khoan"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/main_green"
+                android:text="@string/str_sign_up"
+                android:layout_margin="5dp"
+                />
+
+
+        </LinearLayout>
+
+</LinearLayout>

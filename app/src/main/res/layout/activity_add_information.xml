@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".AddInformation">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_xac_thuc_thong_tin"
+        android:gravity="center"
+        android:fontFamily="@font/avo"
+        android:textSize="30sp"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/main_green"
+        />
+
+    <EditText
+        android:id="@+id/btn_add_fullname"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin = "20dp"
+        android:background="@drawable/border_color_textbox"
+        android:hint="@string/str_ho_va_ten"
+        android:gravity="center"
+        android:fontFamily="@font/avo"
+        />
+
+    <EditText
+        android:id="@+id/btn_add_numphone"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin = "20dp"
+        android:background="@drawable/border_color_textbox"
+        android:hint="@string/str_so_dien_thoai"
+        android:gravity="center"
+        android:fontFamily="@font/avo"
+        />
+
+    <EditText
+        android:id="@+id/btn_add_adress"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin = "20dp"
+        android:background="@drawable/border_color_textbox"
+        android:hint="@string/str_dia_chi"
+        android:gravity="center"
+        android:fontFamily="@font/avo"
+        />
+
+    <Button
+        android:id="@+id/btn_submit_add"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/str_luu"
+        android:fontFamily="@font/avo"
+        android:backgroundTint="@color/main_green"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="300dp"
+        android:fontFamily="@font/avo"
+        android:layout_height="50dp"
+        android:text="@string/str_thoat"
+        android:backgroundTint="@color/btn_orther"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        />
+
+
+
+
+</LinearLayout>

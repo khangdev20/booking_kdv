@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".LoginWithOTP">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhập số điện thoại"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@color/main_green"
+        android:fontFamily="@font/avobold"
+        android:layout_marginBottom="100dp"
+
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:hint="Ví dụ +84789511312"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/edt_phone_number"
+        android:background="@drawable/border_color_textbox"
+
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="100dp"
+        android:text="Gửi mã OTP"
+        android:id="@+id/btn_sendOTP"
+        android:backgroundTint="@color/main_green"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/avo"
+        />
+
+</LinearLayout>

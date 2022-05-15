@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "908393169768",
+    "project_id": "booking---now",
+    "storage_bucket": "booking---now.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908393169768:android:522c6a860ca1b3f8b1ccdd",
+        "android_client_info": {
+          "package_name": "com.khangdev.bookingnow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908393169768-sep1g1jj09qbet5qvul3hl49cr0rtlbj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.khangdev.bookingnow",
+            "certificate_hash": "4c439d3808e383c725d7f1d3e405648cf5770935"
+          }
+        },
+        {
+          "client_id": "908393169768-8n056hgcrpinf1gsreg31ugjgbok7pi5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3FmtjhFoJjPk3exSToONjiWO21Re51i8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908393169768-8n056hgcrpinf1gsreg31ugjgbok7pi5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
