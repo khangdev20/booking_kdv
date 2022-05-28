@@ -25,8 +25,8 @@
         android:id="@+id/edt_email"
         android:layout_width="300dp"
         android:layout_height="70dp"
-        android:hint="@string/str_email"
         android:background="@drawable/border_color_textbox"
+        android:hint="@string/str_email"
         android:gravity="center"
         android:textSize="20sp"
         android:imeOptions="actionNext"
@@ -53,14 +53,13 @@
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_marginTop="20dp"
-        android:text="@string/str_sign_in"
+        android:text="@string/str_dang_nhap"
         android:textAllCaps="false"
         android:textSize="20sp"
         android:backgroundTint="@color/main_green"
+        android:fontFamily="@font/avo"
 
         />
-
-
 
         <LinearLayout
             android:id="@+id/layout_signUP"
@@ -68,7 +67,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:padding="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_margin="5dp"
             android:gravity="center">
             <TextView
                 android:layout_width="wrap_content"
@@ -82,7 +81,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:textColor="@color/main_green"
-                android:text="@string/str_sign_up"
+                android:text="@string/str_dang_ky"
                 android:layout_margin="5dp"
                 />
 

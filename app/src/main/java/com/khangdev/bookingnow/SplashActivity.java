@@ -23,16 +23,14 @@ public class SplashActivity extends AppCompatActivity {
     }
 
     private void nextActivity() {
-
-//        startActivity(new Intent(this , LoginWithEmail.class));
-//        finish();
-
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         if(user == null)
         {
             startActivity(new Intent(this , LoginWithEmail.class));
         } else {
             startActivity(new Intent(this , MainActivity.class));
+
         }
+        finish();
     }
 }

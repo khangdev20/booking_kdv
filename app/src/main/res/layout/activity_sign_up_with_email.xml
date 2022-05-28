@@ -52,7 +52,7 @@
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_marginTop="20dp"
-        android:text="@string/str_sign_up"
+        android:text="@string/str_dang_ky"
         android:textSize="20sp"
         android:textAllCaps="false"
         android:fontFamily="@font/avo"

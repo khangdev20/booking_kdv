@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BookingNow">
         <activity
+            android:name=".InputInformationCustomer"
+            android:exported="false" />
+        <activity
+            android:name=".BookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryBook"
+            android:exported="false" />
+        <activity
+            android:name=".ListStadium"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfile"
+            android:exported="false" />
+        <activity
             android:name=".AddInformation"
             android:exported="false" />
         <activity

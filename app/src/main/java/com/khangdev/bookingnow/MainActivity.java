@@ -1,5 +1,6 @@
 package com.khangdev.bookingnow;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -17,26 +18,52 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button buttonSignOut;
+    private ImageView imageViewSignOut, imageViewMyProfile, imageViewListStadium , imageViewChatBox, imageViewAvatar;
     private TextView textViewFullName;
-    private ImageView imageViewAvatar;
     private TextView textViewEmail;
-    private TextView textViewNumberPhone;
-    private TextView textViewLocation;
+    private Button buttonAddStadium;
+
+
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getDataIntent();
+
+//        getDataIntent();
 
         initUi ();
         showUserInformation();
-        buttonSignOut.setOnClickListener(v -> {
+        imageViewSignOut.setOnClickListener(v -> {
             Toast.makeText(MainActivity.this , "Đăng xuất thành công", Toast.LENGTH_LONG).show();
             onClickSignOut();
+            finish();
         });
+
+        imageViewMyProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this , MyProfile.class));
+            }
+        });
+
+
+        imageViewListStadium.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this , ListStadium.class));
+            }
+        });
+
+        imageViewChatBox.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this , ListStadium.class));
+            }
+        });
+
 
     }
 
@@ -44,32 +71,20 @@ public class MainActivity extends AppCompatActivity {
         FirebaseAuth.getInstance().signOut();
         startActivity(new Intent(MainActivity.this ,
                 LoginWithEmail.class));
-        finish();
     }
 
     private void initUi() {
-        buttonSignOut = findViewById(R.id.btn_sign_out);
+        imageViewSignOut = findViewById(R.id.btn_sign_out);
         textViewFullName = findViewById(R.id.tv_full_name);
         textViewEmail = findViewById(R.id.tv_email);
-        //textViewLocation = findViewById(R.id.tv_location);
         imageViewAvatar = findViewById(R.id.img_avatar);
-        //textViewNumberPhone = findViewById(R.id.tv_number_phone);
-
-
+        imageViewMyProfile = findViewById(R.id.btn_my_profile);
+        imageViewListStadium = findViewById(R.id.btn_list_stadium);
+        imageViewChatBox = findViewById(R.id.btn_box_chat);
     }
 
 
-    private void getDataIntent() {
-        String strPhoneNumber = getIntent().getStringExtra("phone Number");
-
-
-        //để tạm để không lỗi
-        TextView textViewUserInfor = findViewById(R.id.btn_sign_out);
-        textViewUserInfor.setText(strPhoneNumber);
-
-    }
-
-    private void showUserInformation() {
+    public void showUserInformation() {
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         if (user == null)
         {
@@ -87,9 +102,11 @@ public class MainActivity extends AppCompatActivity {
         else
         {
             textViewFullName.setVisibility(View.VISIBLE);
+            textViewFullName.setText(name);
         }
-        textViewFullName.setText(name);
+
         textViewEmail.setText(email);
         Glide.with(this).load(photoUrl).error(R.drawable.chusan).into(imageViewAvatar);
     }
+
 }

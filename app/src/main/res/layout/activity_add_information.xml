@@ -21,7 +21,7 @@
         />
 
     <EditText
-        android:id="@+id/btn_add_fullname"
+        android:id="@+id/edt_add_fullname"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_margin = "20dp"
@@ -38,17 +38,6 @@
         android:layout_margin = "20dp"
         android:background="@drawable/border_color_textbox"
         android:hint="@string/str_so_dien_thoai"
-        android:gravity="center"
-        android:fontFamily="@font/avo"
-        />
-
-    <EditText
-        android:id="@+id/btn_add_adress"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_margin = "20dp"
-        android:background="@drawable/border_color_textbox"
-        android:hint="@string/str_dia_chi"
         android:gravity="center"
         android:fontFamily="@font/avo"
         />

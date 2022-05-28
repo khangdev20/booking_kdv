@@ -37,9 +37,7 @@ public class LoginWithOTP extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_with_otp);
         initUi();
-
         mAuth = FirebaseAuth.getInstance();
-
         buttonSendOTP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

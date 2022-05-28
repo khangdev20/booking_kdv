@@ -3,6 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Admin/Desktop/Booking New/app/src/main/res/drawable/border_color_textbox.xml" value="0.1925" />
+        <entry key="..\:/Users/Admin/Desktop/Booking New/app/src/main/res/drawable/border_list_view.xml" value="0.2545" />
+        <entry key="..\:/Users/Admin/Desktop/Booking New/app/src/main/res/layout/activity_add_information.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/Admin/Desktop/Booking New/app/src/main/res/layout/activity_add_stadium.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/Admin/Desktop/Booking New/app/src/main/res/layout/activity_booking.xml" value="0.2864583333333333" />
+        <entry key="..\:/Users/Admin/Desktop/Booking New/app/src/main/res/layout/activity_business_main.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/Admin/Desktop/Booking New/app/src/main/res/layout/activity_detail_stadium.xml" value="0.2864583333333333" />
+        <entry key="..\:/Users/Admin/Desktop/Booking New/app/src/main/res/layout/activity_history_book.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/Admin/Desktop/Booking New/app/src/main/res/layout/activity_list_stadium.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Admin/Desktop/Booking New/app/src/main/res/layout/activity_login_with_email.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/Booking New/app/src/main/res/layout/activity_login_with_otp.xml" value="0.14375" />
+        <entry key="..\:/Users/Admin/Desktop/Booking New/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/Booking New/app/src/main/res/layout/activity_my_profile.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Admin/Desktop/Booking New/app/src/main/res/layout/activity_sign_up_with_email.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/Desktop/Booking New/app/src/main/res/layout/activity_splash.xml" value="0.14427083333333332" />
+        <entry key="..\:/Users/Admin/Desktop/Booking New/app/src/main/res/layout/activity_submit_otp.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/Admin/Desktop/Booking New/app/src/main/res/layout/activity_test_connect_rtd.xml" value="0.4235294117647059" />
+        <entry key="..\:/Users/Admin/Desktop/Booking New/app/src/main/res/layout/activity_update_profile.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/Admin/Desktop/Booking New/app/src/main/res/layout/item_stadium.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Admin/Desktop/Customer Booking/app/src/main/res/layout/activity_business_main.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/Admin/Desktop/Customer Booking/app/src/main/res/layout/activity_login_with_email.xml" value="0.17647058823529413" />
+        <entry key="..\:/Users/Admin/Desktop/Customer Booking/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/Customer Booking/app/src/main/res/layout/activity_my_profile.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/Admin/Desktop/Customer Booking/app/src/main/res/layout/activity_sign_up_with_email.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Admin/Desktop/Customer Booking/app/src/main/res/layout/activity_test_connect_rtd.xml" value="0.30052083333333335" />
         <entry key="..\:/Users/Admin/Desktop/Project - Booking Now/app/src/main/res/drawable/border_color_textbox.xml" value="0.2165" />
         <entry key="..\:/Users/Admin/Desktop/Project - Booking Now/app/src/main/res/font/font.xml" value="0.3307291666666667" />
         <entry key="..\:/Users/Admin/Desktop/Project - Booking Now/app/src/main/res/layout/activity_add_information.xml" value="0.22" />
@@ -17,6 +42,22 @@
         <entry key="..\:/Users/Administrator/StudioProjects/BookingNow_Khangdev/app/src/main/res/layout/activity_add_information.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/Administrator/StudioProjects/BookingNow_Khangdev/app/src/main/res/layout/activity_main.xml" value="0.20588235294117646" />
         <entry key="..\:/Users/Administrator/StudioProjects/BookingNow_Khangdev/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+        <entry key="..\:/Workspace/Customer Booking/app/src/main/res/layout/activity_add_information.xml" value="0.22" />
+        <entry key="..\:/Workspace/Customer Booking/app/src/main/res/layout/activity_add_stadium.xml" value="0.30052083333333335" />
+        <entry key="..\:/Workspace/Customer Booking/app/src/main/res/layout/activity_booking.xml" value="0.28489583333333335" />
+        <entry key="..\:/Workspace/Customer Booking/app/src/main/res/layout/activity_business_main.xml" value="0.30052083333333335" />
+        <entry key="..\:/Workspace/Customer Booking/app/src/main/res/layout/activity_detail_stadium.xml" value="0.30052083333333335" />
+        <entry key="..\:/Workspace/Customer Booking/app/src/main/res/layout/activity_history_book.xml" value="0.30052083333333335" />
+        <entry key="..\:/Workspace/Customer Booking/app/src/main/res/layout/activity_input_information_customer.xml" value="0.30052083333333335" />
+        <entry key="..\:/Workspace/Customer Booking/app/src/main/res/layout/activity_list_stadium.xml" value="0.22" />
+        <entry key="..\:/Workspace/Customer Booking/app/src/main/res/layout/activity_login_with_email.xml" value="0.30052083333333335" />
+        <entry key="..\:/Workspace/Customer Booking/app/src/main/res/layout/activity_login_with_otp.xml" value="0.30052083333333335" />
+        <entry key="..\:/Workspace/Customer Booking/app/src/main/res/layout/activity_main.xml" value="0.30052083333333335" />
+        <entry key="..\:/Workspace/Customer Booking/app/src/main/res/layout/activity_my_profile.xml" value="0.30052083333333335" />
+        <entry key="..\:/Workspace/Customer Booking/app/src/main/res/layout/activity_sign_up_with_email.xml" value="0.30052083333333335" />
+        <entry key="..\:/Workspace/Customer Booking/app/src/main/res/layout/activity_splash.xml" value="0.30052083333333335" />
+        <entry key="..\:/Workspace/Customer Booking/app/src/main/res/layout/activity_submit_otp.xml" value="0.30052083333333335" />
+        <entry key="..\:/Workspace/Customer Booking/app/src/main/res/layout/item_stadium.xml" value="0.18981481481481483" />
       </map>
     </option>
   </component>
@@ -25,5 +66,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2864583333333333" />
+      </ProjectState>
+    </option>
   </component>
 </project>

@@ -17,6 +17,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class SignUpActivityWithEmail extends AppCompatActivity {
 
@@ -28,7 +30,6 @@ public class SignUpActivityWithEmail extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up_with_email);
-
         initUi();
         initListener();
     }
@@ -37,7 +38,6 @@ public class SignUpActivityWithEmail extends AppCompatActivity {
         buttonSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 onClickSignUp();
                 
             }
@@ -45,12 +45,10 @@ public class SignUpActivityWithEmail extends AppCompatActivity {
     }
 
     private void onClickSignUp() {
-
         //Sign UP
         String StrEmail = editTextEmail.getText().toString().trim();
         String StrPassword = editTextPassword.getText().toString().trim();
         FirebaseAuth mAuth = FirebaseAuth.getInstance();
-
 
         mAuth.createUserWithEmailAndPassword(StrEmail, StrPassword)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
@@ -58,19 +56,23 @@ public class SignUpActivityWithEmail extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             // Sign in success, update UI with the signed-in user's information
-                            Intent intent = new Intent(SignUpActivityWithEmail.this , MainActivity.class);
+                            Intent intent = new Intent(SignUpActivityWithEmail.this , InputInformationCustomer.class);
                             startActivity(intent);
                             finishAffinity();
+
+                            //
 
                         } else {
 
                             // If sign in fails, display a message to the user.
-                            Toast.makeText(SignUpActivityWithEmail.this, "Email này đã được sử dụng, hãy thử một Email khác?",
+                            Toast.makeText(SignUpActivityWithEmail.this, "Sign Up Failed",
                                     Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
     }
+
+
 
     private void initUi () {
         editTextEmail = findViewById(R.id.edt_email);
